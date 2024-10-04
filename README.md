@@ -2,15 +2,15 @@
 Welcome to the Text Classification project! 
 This repository contains a machine learning model designed to classify text data (such as tweets) into categories such as positive, negative, neutral, or irrelevant. The goal is to predict the sentiment or relevance of a given piece of text, which can be useful for tasks like sentiment analysis, customer feedback monitoring, or social media analytics.
 
-Overview
+# Overview
 This project leverages the Random Forest Classifier, an ensemble learning algorithm, to classify text data based on sentiment or relevance. The model is built using Python, utilizing popular libraries such as scikit-learn, pandas, and nltk. This README provides a breakdown of the project structure, algorithm choice, and instructions for usage.
 
-features
+# features
 Sentiment Analysis: Classifies text into positive, negative, neutral, or irrelevant categories.
 Random Forest Classifier: Utilized for robust performance and handling noisy text data.
 Scalable Solution: Can handle large datasets with ease.
 
-Why Random Forest?
+# Why Random Forest?
 The Random Forest algorithm is chosen for this project due to its many advantages in handling text classification problems:
 
 1- High Accuracy:
@@ -28,14 +28,14 @@ Text data is often incomplete or imbalanced in terms of class distribution. Rand
 5- Scalability:
 The algorithm can easily scale with the data, making it a perfect fit for large datasets where scalability and speed are important.
 
-req:
+# req:
 Python 3.x
 scikit-learn
 pandas
 numpy
 nltk (Natural Language Toolkit)
 
-Model Performance:
+# Model Performance:
 The Random Forest classifier achieved the following performance metrics on the test set:
 
 Accuracy: 91%
@@ -43,10 +43,10 @@ Precision: 0.91
 Recall: 0.91
 F1-Score: 0.91
 
-Contact
+# Contact
 If you have any questions or suggestions, feel free to reach out:
 
 Email: mohamed.nagi@ejust.edu.eg
 GitHub: mohamednagi003
-Happy coding!
+# Happy coding!
 
